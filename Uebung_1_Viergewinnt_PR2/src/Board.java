@@ -1,6 +1,6 @@
 
 public class Board {
-	char[][] field;
+	char [][] field;
 	char n = 7, m = 6; // n=horizontal(Spalte); m=vertikal(Zeilen)
 	// erstellung des Boards
 
@@ -21,11 +21,18 @@ public class Board {
 			System.out.println("\n"); // Zeilenumbruch
 		}
 	}
-
-	public void checkboard() {
-		if (field.length < 0)
-			new RuntimeException("Error");
-
-	}
+	public void checkboard (char field [][]) {
+		for(int i=5;i>=0;i--) {
+			if(field[i][Spalte]!=("[]")) 
+			{
+				
+			
+			}
+			else 
+			{
+				Spiel.field[][Spalte]=this.Zeichen;
+				break;
+			}
+		}
 
 }
